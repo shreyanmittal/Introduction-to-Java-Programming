@@ -1,7 +1,7 @@
 /*
  *
  * @author : Durgesh Samariya
- * @email : durgeshsamariya.cse@charusat.ac.in
+ * @email : <durgeshsamariya.cse@charusat.ac.in>
  *
  */
 
