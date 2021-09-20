@@ -1,5 +1,9 @@
 package Exercise03;
 
+/*
+* @author Dev Desai (20CS015)
+*/
+
 import java.util.Scanner;
 
 public class Excercise03_06 {
@@ -13,11 +17,16 @@ public class Excercise03_06 {
     			double feet = input.nextDouble();
     			System.out.print("Enter inches: ");
     			double inches = input.nextDouble();
-    			 final double kg= 0.45359237*weight;
-    			 final double feets=feet+(inches/12);
-    			 final double height=feets/3.28;
-    			 double bmi = kg /(height*height);
-    			 System.out.println("bmi is:"+bmi);
+    			
+                     final double kg= 0.45359237*weight;
+    			
+                     final double feets=feet+(inches/12);
+    			
+                     final double height=feets/3.28;
+    			
+                     double bmi = kg /(height*height);
+    			 
+                     System.out.println("bmi is:"+bmi);
     					   			 
 }
 }
