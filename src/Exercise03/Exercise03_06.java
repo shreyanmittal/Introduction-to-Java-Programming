@@ -6,27 +6,27 @@ package Exercise03;
 
 import java.util.Scanner;
 
-public class Excercise03_06 {
-       
-    		public static void main(String[] args) {
-    			Scanner input = new Scanner(System.in);
+public class Exercise03_06 {
 
-    			System.out.print("Enter weight in pounds: ");//take input form user
-    			double weight = input.nextDouble();
-    			System.out.print("Enter feet: ");
-    			double feet = input.nextDouble();
-    			System.out.print("Enter inches: ");
-    			double inches = input.nextDouble();
-    			
-                     final double kg= 0.45359237*weight;
-    			
-                     final double feets=feet+(inches/12);
-    			
-                     final double height=feets/3.28;
-    			
-                     double bmi = kg /(height*height);
-    			 
-                     System.out.println("bmi is:"+bmi);
-    					   			 
-}
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		// take the weight form the user in pouds
+		System.out.print("Enter weight in pounds: ");
+		double weight = input.nextDouble();
+		
+		System.out.print("Enter feet: ");
+		double feet = input.nextDouble();
+		
+		System.out.print("Enter inches: ");
+		double inches = input.nextDouble();
+
+		double kg = 0.45359237 * weight;
+		double feets = feet + (inches / 12);
+		double height = feets / 3.28;
+		double bmi = kg / (height * height);
+
+		System.out.println("BMI is: " + bmi);
+
+	}
 }
