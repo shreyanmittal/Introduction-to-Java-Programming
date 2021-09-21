@@ -8,6 +8,13 @@ Q = M * (finalTemperature – initialTemperature) * 4184
 where M is the weight of water in kilograms, temperatures are in degrees Celsius,
 and energy Q is measured in joules.
 */
+/*
+ * @author Kalpesh Mahida
+ * ID 20CS030
+ * Email 20cs030@charusat.edu.in
+*/
+
+
 import java.util.Scanner;
 
 public class Exercise_02_10 {
@@ -29,6 +36,6 @@ public class Exercise_02_10 {
 
 		// Display result
 		System.out.println("The energy needed is " + energy);
-        //Prepared by Kalpesh Mahida (20CS030)
+        
 	}
 }
