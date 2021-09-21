@@ -10,23 +10,38 @@
  */
 
 package Exercise03;
-import java.util.Scanner;                                                               // Importing Scanner class
+
+// Importing Scanner class
+import java.util.Scanner;
 
 public class Exercise03_02
 {
-    public static void main(String[] args)                                              // Main method
+    // Main method
+    public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);                                            // Creating object of Scanner class
-        int num1 = (int)(System.currentTimeMillis() % 10);                              // Generating 1st random number "num1"
-        int num2 = (int)(System.currentTimeMillis() / 7 % 10);                          // Generating 2nd random number "num2"
-        int num3 = (int)(System.currentTimeMillis() / 5 % 10);                          // Generating 3rd random number "num3"
-        int sum = num1 + num2 + num3;                                                   // Calculating the sum of above 3 random variables
+        // Creating an object of the Scanner class
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("What is " + num1 + " + " + num2 + " + " + num3 + "?");      // Displaying the addition question
-        System.out.print("Enter your answer: ");                                        // Asking the user to enter the sum
-        int ans = sc.nextInt();                                                         // Inputting answer from the user using Scanner object
-        sc.close();                                                                     // Closing scanner object
+        // Generating the 1st single-digit random number "num1"
+        int num1 = (int)(System.currentTimeMillis() % 10);
+        // Generating the 2nd single-digit random number "num2"
+        int num2 = (int)(System.currentTimeMillis() / 7 % 10);
+        // Generating the 3rd single-digit random number "num3"
+        int num3 = (int)(System.currentTimeMillis() / 5 % 10);
         
-        System.out.println(num1 + " + " + num2 + " + " + num3 + " = " + ans + " is " + (sum == ans));     // Evaluating the user's answer and printing it
+        // Calculating the sum of above 3 generated random numbers
+        int sum = num1 + num2 + num3;
+
+        // Displaying the addition question for the user
+        System.out.println("What is " + num1 + " + " + num2 + " + " + num3 + "?");
+        // Asking the user to enter his/her answer
+        System.out.print("Enter your answer: ");
+        // Inputting the answer of user using Scanner object
+        int ans = sc.nextInt();
+        // Closing scanner object
+        sc.close();
+        
+        // Evaluating the user's answer and printing it
+        System.out.println(num1 + " + " + num2 + " + " + num3 + " = " + ans + " is " + (sum == ans));
     }
 }
