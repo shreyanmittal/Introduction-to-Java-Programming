@@ -14,4 +14,4 @@
 ### New File Submissions:
 
 * [ ] Have you created a <Exercise Number>.java in ~/src/<Exersice Number>/?
-* [ ] Have you entered you name, enrolment number and exercise details in doc string>
+* [ ] Have you entered you name, enrolment number and exercise details in doc string?
