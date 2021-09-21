@@ -8,15 +8,25 @@
  */
 
 package Exercise01;
+
 public class Exercise01_10
 {
-    public static void main(String[] args)                                                   // Main method
+    // Main method
+    public static void main(String[] args)                                                   
     {
-        double distance_km = 14;                                                             // double variable distance_km to store distance in km
-        double distance_miles = distance_km/1.6;                                             // Converting distance in km to distance in miles
-        int time_sec = 2730;                                                                 // 45minutes and 30 seconds in seconds is 2730
+        // double variable distance_km to store distance in km
+        double distance_km = 14;   
 
-        double speed_mph  = (distance_miles * 60 * 60) / time_sec;                           // Calculating average speed in miles per hour
-        System.out.println("Average speed of runner in miles per Hour is: " + speed_mph);    // Printing the average speed in miles per hour
+        // Converting distance in km to distance in miles    
+        double distance_miles = distance_km / 1.6;
+
+        // 45 minutes and 30 seconds in seconds is ((45*60)+30)=2730
+        int time_sec = 2730;              
+
+        // Calculating average speed of runner in miles per hour
+        double avg_speed_mph  = (distance_miles * 60 * 60) / time_sec;
+
+        // Printing the average speed of runner in miles per hour
+        System.out.println("Average speed of runner in miles per Hour is: " + avg_speed_mph);
     }
 }
