@@ -1,5 +1,8 @@
+//20CS031 - Ditsa Mandani
+// 
+
 import java.util.Scanner;
-class chap211
+class Exercise02_11
 {
     public static void main( String []args)
     {
