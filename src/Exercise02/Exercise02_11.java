@@ -10,9 +10,9 @@ One new immigrant every 45 seconds
 
 Write a program to display the population for each of the next five years.
 Assumethe current population is 312,032,486 and one year has 365 days. 
-Hint: In Java, iftwo  integers  perform  division,  the  result  is  an  integer.  
+Hint: In Java, if two  integers  perform  division,  the  result  is  an  integer.  
 The  fraction  part  is  trun-cated. 
-For example, 5/4is1(not1.25) and 10/4is2(not2.5).
+For example, 5/4 is 1 (not 1.25) and 10/4 is 2 (not 2.5).
 
 (Population  projection)  Rewrite  Exercise  1.11  to  prompt  the  user  to  enter  the number of years 
 and displays the population after the number of years.
