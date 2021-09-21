@@ -1,7 +1,7 @@
 /*
     @author: Abhishek Kayasth
     Id- 20CS025
-    email - 20cs02@charusat.edu.in
+    email - 20cs025@charusat.edu.in
 */
 /*
 |------------------------------------Exercise2_7------------------------------------|
