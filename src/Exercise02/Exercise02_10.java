@@ -17,7 +17,7 @@ and energy Q is measured in joules.
 
 import java.util.Scanner;
 
-public class Exercise_02_10 {
+public class Exercise02_10 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);	// Create new Scanner object.
 
