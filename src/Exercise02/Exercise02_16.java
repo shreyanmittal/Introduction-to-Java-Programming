@@ -1,11 +1,11 @@
+package Exercise02;
 /*
  * @author SamirAli Mukhi 
  * S.ID: 20CS038
  * Email: 20cs038@charusat.edu.in
- */
-
-/*Exercise 2.16 (Geometry: area of a hexagon) 
-  Write a program that prompts the user to enter the side of a hexagon and displays its area.*/
+ * Exercise 2.16 (Geometry: area of a hexagon) 
+ * Write a program that prompts the user to enter the side of a hexagon and displays its area.
+*/
 
 import java.util.Scanner;
 
