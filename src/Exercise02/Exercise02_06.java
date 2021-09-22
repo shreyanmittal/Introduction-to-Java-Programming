@@ -13,28 +13,28 @@ public class Exercise02_06 {
 	public static void main(String[] args) {
 
 	     //printing a line to enter sum of digits 	
-		System.out.println("Enter an integer to discover the sum of its digits: ");
+	     System.out.println("Enter an integer to discover the sum of its digits: ");
 
-		//making a scanner object
+	    //making a scanner object
 	    Scanner input = new Scanner(System.in);
 
 	    //taking input integer from the user
 	    int Number = input.nextInt();           
 	    
-        //calling the function and displaying the ans
-        System.out.println(sumDigits(Number));
+            //calling the function and displaying the ans
+            System.out.println(sumDigits(Number));
         
 	}
 
-		//creating the function called sum digits
+	//creating the function called sum digits
 	private static int sumDigits(int a) {
 
 	    //Initialising the sum variable to default value 0
-		int sum = 0;
+	    int sum = 0;
 
-		//using a while loop to calculate the sum
-		while (a > 0) {
-			sum += (a % 10);
+	   //using a while loop to calculate the sum
+       	   while (a > 0) {
+		sum += (a % 10);
 	        a /= 10;    
 	        }
 		
@@ -42,8 +42,6 @@ public class Exercise02_06 {
 		return sum;
 		
 	}
-
-
 }
 
 
