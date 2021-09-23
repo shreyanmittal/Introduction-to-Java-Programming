@@ -14,7 +14,7 @@ and displays the average acceleration.
 package chapter2;
 import java.util.Scanner;
 
-public class Exercise2_9 {
+public class Exercise02_09 {
 	public static void main(String[] args) {
         
 		Scanner input = new Scanner(System.in);	// Create a Scanner object
