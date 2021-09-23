@@ -1,4 +1,4 @@
-package com.company;
+package Exercise03;
 /* 20cs040
 shubhangi nakrani batch B1
  */
