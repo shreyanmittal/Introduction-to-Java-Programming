@@ -32,7 +32,7 @@ public class Exercise02_14{
         // Variable to store the height in Meter.
         double heightInM = height * 0.0254;
 
-        // Display result
+        // Display result.
         System.out.printf("BMI is %.4f\n", weightInKg/(heightInM*heightInM));
     }
 }
