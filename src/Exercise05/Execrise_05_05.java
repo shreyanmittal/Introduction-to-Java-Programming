@@ -14,7 +14,7 @@ method to display them in increasing order.
 */
 import java.util.Scanner;
 
-public class Exercise_05_05 {
+class Exercise_05_05 {
 	/** Main Method */
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); // Create Scanner
