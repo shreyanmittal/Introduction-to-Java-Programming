@@ -1,6 +1,11 @@
-package ch_04;
+package Exercise04;
 
 import java.util.*;
+/**
+ * @author shubhang khemani(20cs027)Display four patterns using loops) Use nested loops that display the following
+ * patterns in four separate programs:
+ * Pattern A Pattern B Pattern C Pattern D
+ */
 
 
 public class Exercise04_18 {
@@ -17,6 +22,9 @@ public class Exercise04_18 {
         patternD();
     }
 
+    // using nested loops
+    //using for loops to print pattern A
+
     static void patternA() {
         System.out.println("Pattern A");
         int x = 1;
@@ -29,6 +37,7 @@ public class Exercise04_18 {
         }
 
     }
+    // using for loop to print pattern B
 
     static void patternB() {
         System.out.println("Pattern B");
@@ -42,6 +51,7 @@ public class Exercise04_18 {
         }
 
     }
+    // using for loop to print pattern C
 
     static void patternC() {
         System.out.println("Pattern C");
@@ -58,7 +68,7 @@ public class Exercise04_18 {
 
         }
     }
-
+//Using for loop to print pattern D
     static void patternD() {
         System.out.println("Pattern D");
         for (int i = 0; i < 6; i++) {
