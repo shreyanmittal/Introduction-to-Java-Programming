@@ -7,7 +7,7 @@
 |------------------------------------Exercise05_10------------------------------------|
     (Use the isPrime Method) Listing 5.7, PrimeNumberMethod.java, provides the
     isPrime(int number) method for testing whether a number is prime. Use this
-    method to find the number of prime numbers less than 10000.
+    method to find the number of prime numbers less than 10000 and print them.
 */
 package Exercise05;
 
@@ -17,6 +17,37 @@ public class Exercise05_10
     {
         // Print output
         System.out.println("Number of prime numbers less than 10000: " + CountPrime(10000));
+        PrintPrimes(10000);
+    }
+
+    // Prints the prime numbers less than limit
+    static void PrintPrimes(int limit)
+    {
+        final int primePerLine = 22; // Prime numbers in a line
+        int count = 0; // count for prime numbers in line
+        int n = 2; // numbers to print if it is prime
+
+        // while n is less than limit 
+        while(n < limit)
+        {
+            // check number is prime
+            if(isPrime(n))
+            {
+                count++; // if prime than increase count for prime numbers in line
+                
+                // if count is greater than prime per line add another line
+                if(count % primePerLine == 0)
+                {
+                    System.out.printf("%-5s\n", n);
+                }
+                else
+                {
+                    System.out.printf("%-5s", n);
+                }
+            }
+
+            n++; // check next number
+        }
     }
 
     // Counts Prime numbers less than n
