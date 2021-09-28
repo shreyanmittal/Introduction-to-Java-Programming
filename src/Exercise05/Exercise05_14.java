@@ -33,7 +33,7 @@ public class Exercise05_14 {
 	public static double p(double n) {
 		double a= 0;		
 		for (double i = 1; i <= n; i ++) {
-			a += Math.pow(-1, i +1) / (2 * i - 1);   //Method for m(i)
+			a += Math.pow(-1, i +5) / (2 * i - 1);   //Method for m(i)
 		}
 		a *= 4;
 		return a;
