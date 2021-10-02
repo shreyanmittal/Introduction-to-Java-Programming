@@ -26,9 +26,9 @@ public class Exercise04_04 {
 
 		//converting miles into kilometer and displaying it
 		for (int i = 1; i <= 10; i++) {
-            //printing miles and giving spaces
-            System.out.print(i + "\t");
-            //multiplying miles into kilometer
+			//printing miles and giving spaces
+			System.out.print(i + "\t");
+			//multiplying miles into kilometer
 			System.out.printf("%.3f \n", i*KILO);
 		}
 	}
