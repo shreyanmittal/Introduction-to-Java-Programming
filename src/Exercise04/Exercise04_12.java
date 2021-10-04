@@ -1,3 +1,10 @@
+/*
+ * @author Shreyan Mittal 
+ * ID 20CS037
+*/
+/*
+ * Question: Find the smallest n such that n2 7 12,000) Use a while loop to find the smallest integer n such that n2 is greater than 12,000.
+ */
 public class Exercise_04_12 {
 
     public static void main(String[] args) {
